@@ -29,7 +29,7 @@ public class TestProject {
 		session.persist(department);
 		session.getTransaction().commit();
 		session.close();
-		System.out.println("Done saving objects to the database...");
+		System.out.println("Done saving objects to the database...Finished!!");
 	}
 
 }//end class
